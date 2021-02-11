@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.5eecb86c.chunk.css",
+    "main.js": "/weather-app/static/js/main.0261c03b.chunk.js",
+    "main.js.map": "/weather-app/static/js/main.0261c03b.chunk.js.map",
+    "runtime-main.js": "/weather-app/static/js/runtime-main.47e49396.js",
+    "runtime-main.js.map": "/weather-app/static/js/runtime-main.47e49396.js.map",
+    "static/js/2.92a89405.chunk.js": "/weather-app/static/js/2.92a89405.chunk.js",
+    "static/js/2.92a89405.chunk.js.map": "/weather-app/static/js/2.92a89405.chunk.js.map",
+    "index.html": "/weather-app/index.html",
+    "static/css/main.5eecb86c.chunk.css.map": "/weather-app/static/css/main.5eecb86c.chunk.css.map",
+    "static/js/2.92a89405.chunk.js.LICENSE.txt": "/weather-app/static/js/2.92a89405.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/weather-app/static/media/Varela-Regular.3b7ffe17.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47e49396.js",
+    "static/js/2.92a89405.chunk.js",
+    "static/css/main.5eecb86c.chunk.css",
+    "static/js/main.0261c03b.chunk.js"
+  ]
+}
