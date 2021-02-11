@@ -1,0 +1,21 @@
+@mixin visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+@mixin object-fit {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+@mixin object-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}

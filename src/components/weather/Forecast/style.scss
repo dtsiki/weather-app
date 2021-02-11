@@ -1,0 +1,45 @@
+.forecast {
+    position: relative;
+    margin: 50px 0 0;
+
+    .weather {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        text-align: center;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px 0;
+
+        + .weather {
+            margin-top: 10px;
+        }
+
+        &-day {
+            flex: auto;
+            background-color: transparent;
+            font-size: 16px !important;
+            margin: 0;
+            text-align: left;
+        }
+
+        &-temp {
+            text-align: right;
+            margin: 0;
+            font-size: 20px !important;
+            flex-basis: 150px;
+            background-color: transparent;
+        }
+
+        &-condition {
+            margin: 10px 0;
+
+            &__icon {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}

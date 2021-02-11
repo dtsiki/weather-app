@@ -1,0 +1,18 @@
+@import './../../../styles/base/variables';
+@import './../../../styles/utils/breakpoints';
+
+.container {
+    min-width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+
+    @include sm {
+        min-width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+    }
+}

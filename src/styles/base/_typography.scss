@@ -1,0 +1,33 @@
+@import './variables';
+
+@font-face {
+    font-family: Valera;
+    src: local(Valera), url(../../assets/fonts/Varela/Varela-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: Valera;
+    font-weight: bold;
+    text-align: center;
+    color: $font-color;
+
+    + .title {
+        margin-top: 10px;
+    }
+}
+
+.text {
+    font-size: 16px;
+    color: $font-color;
+
+    &--center {
+        text-align: center;
+    }
+}
+

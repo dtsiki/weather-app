@@ -1,0 +1,14 @@
+@import './colors';
+
+//Common
+$font: Valera, Arial, sans-serif;
+$bg-color: $violet;
+$font-color: $white-darker;
+$transition: 0.3s;
+
+//Loader
+$loader-bg-color: $white-violet;
+$loader-spinner-color: $violet-dark;
+$loader-spinner-width: 6px;
+$loader-size: 20px;
+$loader-duration: 1.5s;

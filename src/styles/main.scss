@@ -1,0 +1,15 @@
+@import '~normalize-scss/sass/normalize/import-now';
+@import './utils/breakpoints';
+@import './base/typography';
+@import './base/variables';
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+    font-family: $font;
+    color: $font-color;
+    background-color: $bg-color;
+    overflow-x: hidden;
+}
