@@ -1,3 +1,4 @@
+@import './../../../styles/utils/breakpoints';
 @import './../../../styles/base/colors';
 @import './../../../styles/base/variables';
 
@@ -6,11 +7,12 @@
     width: 100%;
     height: 100%;
     background-color: $bg-color;
-    background: linear-gradient(-45deg, $violet, $violet-lighter, $violet-light, $violet-darker);
-    background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	@include md {
+		background: linear-gradient(-45deg, $violet, $violet-lighter, $violet-light, $violet-darker);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+	}
 }
-
 
 @keyframes gradient {
 	0% {
